@@ -120,7 +120,7 @@ const Answer = ({
 
       const formattedAiAnswer = aiAnswer.error
         ? "Sorry, I could not provide an answer to your question, please try again."
-        : aiAnswer.reply.replace(/\n/g, "<br />");
+        : aiAnswer.text.replace(/\n/g, "<br />");
 
       if (editorRef.current) {
         const editor = editorRef.current as any;
