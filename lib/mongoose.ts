@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-// mongoose connextion page
 
 let isConnected: boolean = false;
 
